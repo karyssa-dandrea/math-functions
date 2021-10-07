@@ -13,7 +13,7 @@ example and uses the values that were input into the function:
 
 export function sum(a, b) {
     const sum = a + b;
-    const str = 'The sum of ${a} and ${b} is ${sum}.';
+    const str = `The sum of ${a} and ${b} is ${sum}.`;
     return [sum, str];
 
 }
